@@ -120,7 +120,7 @@ def show_labels(labels, win, cursor, cursor_top, cursor_bot, lines, columns, col
 def show_preview(preview_content, win, columns, lines):
     win.addstr(preview_content)
 
-    pad.refresh()
+    win.refresh()
 
 # Utility function to view all colors possible
 def show_all_colors(stdscr):
